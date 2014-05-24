@@ -1,5 +1,5 @@
 makeCacheMatrix <- function(x = numeric()) {
-    m <- NULL
+    m <- NULL # initialise solution as zero
     set <- function(y) {
         x <<- y     # set new values for x, and make solution zero again
         m <<- NULL 
